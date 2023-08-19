@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<head>
+<title>GRETIRO</title>
+</head>
+<link rel="stylesheet" href="g7.css">
+<body>
+<div id="mydiv1">
+<img src="image/8.jpg" style="width:1400px;height: 610px;position: fixed;">
+</div>
+<div id="mydiv">
+<form action="connect3.php" method="POST">
+    <br>
+    <h3 style="margin-left: 50px;margin-top: 50px;position: absolute;">Name :</h3>
+    <input type="name" name="username" placeholder="Enter Your Name" style="margin-left: 150px;margin-top: 37px;padding: 10px 10px;position: absolute;" />
+    <h3 style="margin-left: 50px;margin-top: 120px;position: absolute;">Email :</h3>
+    <input type="name" name="email" placeholder="Enter Your E-mail ID" style="margin-left: 150px;margin-top: 110px;padding: 10px 10px;position: absolute;" />
+    <h3 style="margin-left: 50px;margin-top: 190px;position: absolute;">Phone No :</h3>
+    <input type="name" name="mobile" placeholder="Enter Your phone number" style="margin-left: 150px;margin-top: 183px;padding: 10px 10px;position: absolute;" />
+    <h3 style="margin-left: 50px;margin-top: 250px;position: absolute;">Select Gender :</h3>
+    <b><label style="margin-left: 70px;margin-top: 288px;position: absolute;">Male</label></b><input style="margin-left: 50px;margin-top: 290px;position: absolute;" type="radio" name="Gender"/>
+    <b><label style="margin-left: 70px;margin-top: 308px;position: absolute;">Female</label></b><input style="margin-left: 50px;margin-top: 310px;position: absolute;" type="radio" name="Gender"/>
+    <b><label style="margin-left: 70px;margin-top: 328px;position: absolute;">Others</label></b><input style="margin-left: 50px;margin-top: 330px;position: absolute;" type="radio" name="Gender"/>
+    <h3 style="margin-left: 50px;margin-top: 370px;position: absolute;">Select Country :</h3>
+    <select style="margin-left: 200px;margin-top: 373px;position: absolute;padding: 1px 3px;text-align: center;" name="country"> 
+        <option>-Select-</option>
+        <option>India</option>
+        <option>Australia</option>
+        <option>China</option>
+        <option>South Africa</option>
+        <option>Canada</option>
+        <option>Germany</option>
+        <option>Japan</option>
+        <option>Brazil</option>
+        <option>France</option>
+        <option>Italy</option>
+        <option>Argentina</option>
+        <option>Belgium</option>
+        <option>Algeria</option>
+        <option>Chile</option>
+        <option>Denmark</option>
+        <option>Finland</option>
+        <option>Colombia</option>
+        <option>Austria</option>
+        <option>Kazakhstan</option>
+        <option>Indonesia</option>
+        <option>Greece</option>
+        <option>United States</option>
+        <option>czech Republic</option>
+        <option>spain</option>
+        <option>Mexico</option>
+        <option>Russia</option>
+        <option>Pakistan</option>
+        <option>Bangladesh</option>
+        <option>Ethiopia</option>
+        <option>Philippines</option>
+        <option>Egypt</option>
+        <option>Vietnam</option>
+        <option>DR Congo</option>
+        <option>Turkey</option>
+        <option>Iran</option>
+        <option>Thailand</option>
+        <option>United Kingdom</option>
+        <option>Tanzania</option>
+        <option>Myanmar</option>
+        <option>Kenya</option>
+        <option>South Korea</option>
+        <option>Uganda</option>
+        <option>Sudan</option>
+        <option>Ukraine</option>
+        <option>Iraq</option>
+        <option>Afghanistan</option>
+        <option>Poland</option>
+        <option>Morocco</option>
+        <option>Saudi Arabia</option>
+        <option>Uzbekistan</option>
+        <option>Peru</option>
+        <option>Angola</option>
+        <option>Malaysia</option>
+        <option>Mozambique</option>
+        <option>Ghana</option>
+        <option>Yemen</option>
+        <option>Nepal</option>
+        <option>Venezuela</option>
+        <option>Madagascar</option>
+        <option>Cameroon</option>
+        <option>North Korea</option>
+        <option>Niger</option>
+        <option>Sri Lanka</option>
+        <option>Burkina Faso</option>
+        <option>Mali</option>
+        <option>Romania</option>
+        <option>malawi</option>
+        <option>Zambia</option>
+
+    </select>
+    <h3 style="margin-left: 50px;margin-top: 430px;position: absolute;">Select State :</h3>
+    <select style="margin-left: 200px;margin-top: 433px;position: absolute;padding: 1px 1px;text-align: center;" name="state"> 
+        <option>-Select-</option>
+        <option>Tamil Nadu</option>
+        <option>Andhra Pradesh</option>
+        <option>Rajastan</option>
+        <option>West Bengal</option>
+        <option>Karnataka</option>
+    </select>
+    <h3 style="margin-left: 50px;margin-top: 490px;position: absolute;">Select City :</h3>
+    <select style="margin-left: 200px;margin-top: 493px;position: absolute;padding: 1px 17px;text-align: center;" name="city"> 
+        <option>-Select-</option>
+        <option>Chennai</option>
+        <option>Bangalore</option>
+        <option>Hyderabad</option>
+        <option>Mumbai</option>
+        <option>Kolkata</option>
+        <option>Pune</option>
+        <option>Lucknow</option>
+    </select>
+    <h3 style="margin-left: 430px;margin-top: 50px;position: absolute;">Select Blood Group :</h3>
+    <select style="margin-left: 630px;margin-top: 53px;position: absolute;padding: 1px 20px;text-align: center;" name="blood"> 
+        <option>-Select-</option>
+        <option>A+</option>
+        <option>A-</option>
+        <option>B+</option>
+        <option>B-</option>
+        <option>AB+</option>
+        <option>AB-</option>
+        <option>O+</option>
+        <option>O-</option>
+    </select>
+    <h3 style="margin-left: 430px;margin-top: 100px;position: absolute;">Can We Share Your Credentials To Acceptor?</h3>
+    <b><label style="margin-left: 460px;margin-top: 148px;position: absolute;">Yes</label></b><input type="radio" style="margin-left: 430px;margin-top: 150px;position: absolute;" name="share"/>
+    <b><label style="margin-left: 460px;margin-top: 178px;position: absolute;">No</label></b><input type="radio" style="margin-left: 430px;margin-top: 180px;position: absolute;" name="share"/>
+    <input type="submit" id="123" value="Submit" class="btn" style="margin-left: 540px;margin-top: 218px;position: absolute;"></input>
+</form>
+</div>
+    
+</body>
+
+<style>
+    #mydiv
+    {
+        background-color: whitesmoke;
+        border-radius: 30px;
+        height: 600px;
+        width: 800px;
+        position: absolute;
+        margin-left: 280px;
+        border:none;
+	    outline:none;
+        margin-top: 5px;
+        animation: mymove 3s;
+    }
+@keyframes mymove
+{
+	from{margin-left: 580px;margin-top: 300px;height: 0px;width: 0px;}
+	to{margin-left: 280px;margin-top: 5px;height: 600px;width: 800px;}
+}
+    #mydiv1
+    {
+        height: 600px;
+        width: 800px;
+        position: absolute;
+        filter: blur(5px);
+        animation: mymove1 2s;
+    }
+@keyframes mymove1
+{
+	from{filter: blur(0px);}
+	to{filter: blur(5px);}
+}
+</style>
+</html>

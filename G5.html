@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<head>
+<title>GRETIRO</title>
+</head>
+<link rel="stylesheet" href="g1.css">
+<style>
+#mydiv
+{
+	margin: 10px 550px;
+	font: 50px bold;
+	font-family: algerian;
+	border:none;
+	outline:none;
+	width: 400px;
+	height: 100px;
+	animation: mymove 5s;
+}
+@keyframes mymove
+{
+	from{margin: 10px 550px;font: 50px bold;font-family: algerian;}
+	to{margin: 10px 550px;font: 50px bold;font-family: algerian;}
+}
+</style>
+<body style="background-image:url(image/1.jpg);float:left;background-size:cover;background-attachment:fixed;background-repeat:no-repeat;">
+<div id="mydiv">
+<p>GRETIRO</p>
+</div>
+<form action="connect1.php" method="POST">
+<input type="text" placeholder="Enter Username" id="123" class="btn" style="padding-left:20px; color:black;" name="uname" required=""></input>
+<input type="password" placeholder="Enter password" id="12" class="btn1" style="padding-left:20px;" name="upas" required=""></input>
+<p style="color: red;margin-left: 150px;font-size: 18px;">*invalid username or password</p>
+<a href="G3.html" style="text-decoration:none;color:#414a4c;font-size:25px;margin: 20px 450px;">Forgot Password?</a>
+<input type="submit" value="Login" class="btn2" ></input>
+</form>
+<p style="font-size: 25px;padding: 0px 335px;">or</p>
+<button class="btn3" onclick="window.location.href='G2.html'"> Sign up </button>
+</body>
+</html>

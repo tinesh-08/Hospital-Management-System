@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<head>
+<title>GRETIRO</title>
+</head>
+<link rel="stylesheet" href="g4.css">
+<style>
+#mydiv
+{
+	margin: 10px 550px;
+	font: 50px bold;
+	font-family: algerian;
+	border:none;
+	outline:none;
+	width: 400px;
+	height: 100px;
+	animation: mymove 5s;
+}
+@keyframes mymove
+{
+	from{margin: 10px 0px;font: 50px bold;font-family: algerian;}
+	to{margin: 10px 550px;font: 50px bold;font-family: algerian;}
+}
+</style>
+
+<body style="background-image:url(image/1.jpg);float:left;background-size:cover;background-attachment:fixed;background-repeat:no-repeat;">
+<div id="mydiv">
+<p>GRETIRO</p>
+</div>
+<h1>Enter The OTP: </h1>
+
+<form method="post">
+	<div class="form-group first_box">
+		<input type="text" id="email" class="form-control" placeholder="Email" required="required">
+		<span id="email_error" class="field_error"></span>
+	</div>
+	<div class="form-group first_box">
+		<button type="button" class="btn" onclick="send_otp()">Send OTP</button>
+	</div>
+	<div class="form-group second_box">
+		<input type="text" id="otp" class="form-control" placeholder="OTP" required="required">
+		<span id="otp_error" class="field_error"></span>
+	</div>
+	<div class="form-group second_box">
+		<button type="button" class="btn" onclick="submit_otp()">Submit OTP</button>
+	</div>    
+</form>
+</body>
+</html>

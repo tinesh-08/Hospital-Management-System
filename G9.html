@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<head>
+<title>GRETIRO</title>
+</head>
+<link rel="stylesheet" href="g7.css">
+<body>
+<div id="mydiv1">
+<img src="image/8.jpg" style="width:1400px;height: 610px;position: fixed;">
+</div>
+<div id="mydiv">
+<form action="connect4.php" method="POST">
+    <br>
+    <br>
+    <br>
+    <h3 style="margin-left: 230px;margin-top: 80px;position: absolute;">Select Blood Group :</h3>
+    <select style="margin-left: 430px;margin-top: 83px;position: absolute;padding: 1px 28px;text-align: center" name="blood"> 
+        <option>-Select-</option>
+        <option>A+</option>
+        <option>A-</option>
+        <option>B+</option>
+        <option>B-</option>
+        <option>AB+</option>
+        <option>AB-</option>
+        <option>O+</option>
+        <option>O-</option>
+    </select>
+    <h3 style="margin-left: 230px;margin-top: 130px;position: absolute;">Select Country :</h3>
+    <select style="margin-left: 430px;margin-top: 133px;position: absolute;padding: 1px 24px;text-align: center;" name="country"> 
+        <option>-Select-</option>
+        <option>India</option>
+        <option>Australia</option>
+        <option>China</option>
+        <option>America</option>
+        <option>Africa</option>
+    </select>
+    <h3 style="margin-left: 230px;margin-top: 180px;position: absolute;">Select State :</h3>
+    <select style="margin-left: 430px;margin-top: 183px;position: absolute;padding: 1px 1px;text-align: center;" name="state"> 
+        <option>-Select-</option>
+        <option>Tamil Nadu</option>
+        <option>Andhra Pradesh</option>
+        <option>Rajastan</option>
+        <option>West Bengal</option>
+        <option>Karnataka</option>
+    </select>
+    <h3 style="margin-left: 230px;margin-top: 230px;position: absolute;">Select City :</h3>
+    <select style="margin-left: 430px;margin-top: 233px;position: absolute;padding: 1px 17px;text-align: center;" name="city"> 
+        <option>-Select-</option>
+        <option>Chennai</option>
+        <option>Bangalore</option>
+        <option>Hyderabad</option>
+        <option>Mumbai</option>
+        <option>Kolkata</option>
+        <option>Pune</option>
+        <option>Lucknow</option>
+    </select>
+    <input type="submit" id="123" value="Submit" class="btn" style="margin-left: 340px;margin-top: 318px;position: absolute;"></input>
+</form>
+</div>
+    
+</body>
+
+<style>
+    #mydiv
+    {
+        background-color: whitesmoke;
+        border-radius: 30px;
+        height: 600px;
+        width: 800px;
+        position: absolute;
+        margin-left: 280px;
+        border:none;
+	    outline:none;
+        margin-top: 5px;
+        animation: mymove 3s;
+    }
+@keyframes mymove
+{
+	from{margin-left: 580px;margin-top: 300px;height: 0px;width: 0px;}
+	to{margin-left: 280px;margin-top: 5px;height: 600px;width: 800px;}
+}
+    #mydiv1
+    {
+        height: 600px;
+        width: 800px;
+        position: absolute;
+        filter: blur(5px);
+        animation: mymove1 2s;
+    }
+@keyframes mymove1
+{
+	from{filter: blur(0px);}
+	to{filter: blur(5px);}
+}
+</style>
+</html>

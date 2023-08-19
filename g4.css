@@ -1,0 +1,32 @@
+
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.abc 
+{        
+    font-size: 15px;
+    font-weight: bold;
+}
+.second_box{display:none;}
+.field_error{color:red;}
+
+.btn
+{
+	margin: 10px 150px;
+	display: block;
+	padding: 10px 20px;
+	border-radius: 30px;
+	background: DeepSkyBlue;
+	line-height: 1;
+	outline: none;
+	color:black;
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
+.btn:hover,
+.btn:focus
+{
+	background:white;
+	color:black;
+}

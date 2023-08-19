@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<head>
+<title>GRETIRO</title>
+</head>
+<link rel="stylesheet" href="g2.css">
+<style>
+#mydiv
+{
+	margin: 10px 550px;
+	font: 50px bold;
+	font-family: algerian;
+	border:none;
+	outline:none;
+	width: 400px;
+	height: 100px;
+	animation: mymove 5s;
+}
+@keyframes mymove
+{
+	from{margin: 10px 0px;font: 50px bold;font-family: algerian;}
+	to{margin: 10px 550px;font: 50px bold;font-family: algerian;}
+}
+</style>
+<body style="background-image:url(image/1.jpg);float:left;background-size:cover;background-attachment:fixed;background-repeat:no-repeat;">
+<div id="mydiv">
+<p>GRETIRO</p>
+</div>
+<form action="connect.php" method="POST" >
+<input type="text" placeholder="Enter Username" id="username" class="btn" style="padding-left:20px; color: black;" name="username" required="" s></input>
+<input type="text" placeholder="Enter Email" id="email" class="btn1" style="padding-left:20px; color: black;" name="email" required="can't be empty"></input>
+<input type="password" placeholder="Enter Password" id="password" class="btn2" style="padding-left:20px; color: black;" name="pasword" required=""></input>
+<input type="text" placeholder="Enter Phone Number" id="mobile" class="btn3" style="padding-left:20px; color: black;" name="mobile" required=""></input>
+<input type="submit" id="123" value="Signup" class="btn4"></input>
+<style>
+::placeholder
+{
+	color: #000;
+}
+</style>
+</form>
+</body>
+</html>
